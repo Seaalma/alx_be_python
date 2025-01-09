@@ -24,11 +24,11 @@ def main():
         unit = input("Is this temperature in Celsius or Fahrenheit? (C/F): ").strip().upper()
         
         if unit == "C":
-            # Convert from Celsius to Fahrenheit
+            # Convert Celsius to Fahrenheit
             converted_temp = convert_to_fahrenheit(temperature)
             print(f"{temperature:.1f}°C is {converted_temp:.1f}°F")
         elif unit == "F":
-            # Convert from Fahrenheit to Celsius
+            # Convert Fahrenheit to Celsius
             converted_temp = convert_to_celsius(temperature)
             print(f"{temperature:.1f}°F is {converted_temp:.1f}°C")
         else:
@@ -40,3 +40,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
